@@ -25,6 +25,9 @@ public class TestSX implements IBusinessRule
         outboundMessageBuilder.addBigDecimalFieldByName("field4", BigDecimal.ONE);
 
         outboundMessageBuilder.buildAndSave();
+
+        int userAccountPrimaryKey = 1254;
+        aContext.getNotificationService().sendNotification(userAccountPrimaryKey, "Service to send a push notification to all the devices that are linked to the account passed as a parameter.");
         
 	}
 }
