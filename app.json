@@ -1,0 +1,8 @@
+{
+  "systemId" : "8A063722-A93B-416A-803E-D6D20BB3D20E",
+  "group" : "com.planonsoftware.tms",
+  "name" : "test.msg.bt",
+  "version" : "1.0.0",
+  "release" : "56.0.0.3-2",
+  "repositories" : [ ]
+}
